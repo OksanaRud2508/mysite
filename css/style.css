@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+body{
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.header{
+    background-image: url("../images/main-background.jpg");
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 182px 0;
+    width: 746px;
+    line-height: 1.1;
+}
+.header_logo{
+    margin-bottom: 125px;
+}
+.header_text{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.header_title{
+    text-transform: uppercase;
+    font-size: 64px;
+}
+.header_p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.header_btn, .academy_btn{
+    width: 286px;
+    color: #fff;
+    background-color: #E11B19;
+    border-radius: 40px;
+    padding: 20px 15px 20px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+}
+.header_btn::after, .academy_btn::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/icons/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.members{
+    background-color: #191C1F;
+}
+.members_inner{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0 70px 0;
+}
+.members_title{
+    width: 250px;
+}
+.members_list{
+    display: flex;
+    gap: 28px;
+    justify-content: space-between;
+    width: 827px;
+}
+.members_item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    line-height: 1;
+}
+.members_title, .members_item_title{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.members_item_text{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.facilities{
+    background-color: #1F2327;
+    padding: 120px 0;
+}
+.facilities_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.facilities_text{
+    text-transform: uppercase;
+    width: 443px;
+    line-height: 1.1;
+}
+.facilities_h2, .leader_h3{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.facilities_title, .leader_title{
+    font-size: 32px;
+    padding-bottom: 25px;
+    width: 236px;
+}
+.facilities_item{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.facilities_item{
+    list-style-image: url("../images/icons/check.svg");
+    list-style-position: inside;
+}
+
+.facilities_img, .leader_img{
+    width: 540px;
+    height: 360px;
+    position: relative;
+}
+.facilities_img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.leader_img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.leader{
+    background-color: #191C1F;
+    padding: 120px 0;
+}
+.leader_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leader_text{
+    width: 446px;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.leader_p{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    line-height: 25px;
+    width: 405px;
+}
+
+.academy{
+    background-image: url("../images/academy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+.academy_inner{
+    width: 746px;
+    margin: 0 auto;
+    text-align: center;
+}
+.academy_inner_h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.academy_inner_title{
+    font-size: 64px;
+    text-transform: uppercase;
+    line-height: 75px;
+}
+.academy_inner_text{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.academy_btn{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer{
+    background-color: #14171A;
+    padding: 40px 0;
+}
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_list{
+    display: flex;
+    gap: 15px;
+}
